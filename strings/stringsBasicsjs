@@ -1,0 +1,171 @@
+// ==================================================
+// STRING METHODS IN JAVASCRIPT
+// Strings are sequences of characters enclosed
+// within single quotes (' '), double quotes (" "),
+// or backticks (` `).
+// ==================================================
+
+let day = 'Thursdayday'
+
+
+// --------------------------------------------------
+// charAt(index)
+// Returns the character present at the given index.
+// Index starts from 0.
+// --------------------------------------------------
+
+console.log(day.charAt(5))
+
+// T h u r s d a y d a y
+// 0 1 2 3 4 5 6 7 8 9 10
+//
+// Output: d
+
+
+
+// --------------------------------------------------
+// indexOf()
+// Returns the index of the FIRST occurrence
+// of a character or substring.
+// Returns -1 if not found.
+// --------------------------------------------------
+
+console.log(day.indexOf('a'))
+
+// Finds first 'a'
+// Output: 6
+
+
+// Search for 'a' starting from index 7
+console.log(day.indexOf('a', 7))
+
+// Output: 9
+
+
+// --------------------------------------------------
+// lastIndexOf()
+// Returns the index of the LAST occurrence.
+// --------------------------------------------------
+
+console.log(day.lastIndexOf('a'))
+
+// Output: 9
+
+
+
+// --------------------------------------------------
+// length
+// Returns total number of characters.
+// --------------------------------------------------
+
+console.log(day.length)
+
+// Output: 11
+
+
+
+// --------------------------------------------------
+// String Concatenation
+// Combines two strings together.
+// --------------------------------------------------
+
+console.log(day + ' is Funday!')
+
+// Output:
+// Thursdayday is Funday!
+
+
+
+/*
+Index Reference:
+
+T h u r s d a y d a y
+0 1 2 3 4 5 6 7 8 9 10
+*/
+
+
+// --------------------------------------------------
+// slice(startIndex, endIndex)
+// Extracts part of a string.
+// End index is NOT included.
+// --------------------------------------------------
+
+console.log(day.slice(5, 8))
+
+// Characters at indexes:
+// 5 -> d
+// 6 -> a
+// 7 -> y
+
+// Output:
+// "day"
+
+
+
+/*
+String:
+Thursdayday
+
+Splitting by "day"
+
+Thursdayday
+        |day|
+*/
+
+
+
+
+// --------------------------------------------------
+// split()
+// Converts a string into an array.
+// Split occurs wherever the specified separator
+// is found.
+// --------------------------------------------------
+
+console.log(day.split('day'))
+
+// Output:
+// ['Thurs', '', '']
+
+
+// Split based on "urs"
+let splitday = day.split('urs')
+
+console.log(splitday[0])
+console.log(splitday[1])
+
+// Output:
+// Th
+// dayday
+
+
+
+// --------------------------------------------------
+// startsWith()
+// Checks whether a string starts with
+// a specified value.
+// Returns true or false.
+// --------------------------------------------------
+
+console.log(day.startsWith('Th'))
+
+// Output: true
+
+console.log(day.startsWith('h'))
+
+// Output: false
+
+
+
+// --------------------------------------------------
+// endsWith()
+// Checks whether a string ends with
+// a specified value.
+// --------------------------------------------------
+
+console.log(day.endsWith('day'))
+
+// Output: true
+
+
+

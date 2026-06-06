@@ -1,0 +1,16 @@
+// --------------------------------------------------
+// splice() - Remove Elements from an Array
+// --------------------------------------------------
+
+// Syntax:
+// array.splice(startIndex, deleteCount)
+
+// - Removes 'deleteCount' elements starting from startIndex.
+// - Modifies the ORIGINAL array.
+// - Returns an array containing the removed elements.
+
+var marks = [80, 70, 60, 50, 90, 70]
+
+console.log("Array Before Splice: " + marks);
+console.log("Removed Elements: " + marks.splice(2, 3));
+console.log("Array After Splice: " + marks);
