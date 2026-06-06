@@ -1,8 +1,8 @@
-# JavaScript Practice Repository
+JavaScript Practice Repository
 
 This repository contains a comprehensive collection of JavaScript programs and examples covering core language concepts and Node.js fundamentals.
 
-## Topics Covered
+Topics Covered
 
 - Basics
 - Loops
@@ -19,7 +19,7 @@ This repository contains a comprehensive collection of JavaScript programs and e
 - File Handling
 - Excel Handling using ExcelJS
 
-## Highlights
+Highlights
 
 - Well-structured examples with descriptive comments
 - Practical implementations of JavaScript concepts
